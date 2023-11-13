@@ -1,0 +1,4 @@
+FROM almalinux
+ENV AUTHOR="GHOUSE"\
+    VOLUME="25"\
+    ISBN="ISB34656"
