@@ -6,4 +6,5 @@ RUN wget https://templatemo.com/tm-zip-files-2020/templatemo_591_villa_agency.zi
 RUN unzip templatemo_591_villa_agency.zip
 RUN cp -r templatemo_591_villa_agency/* /usr/share/nginx/html
 COPY test.html /usr/share/nginx/html
+CMD [ "nginx","-g","daemon off;" ]
 
