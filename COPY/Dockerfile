@@ -1,4 +1,4 @@
-FROM centos:8
+FROM almalinux
 RUN yum install wget zip unzip nginx -y
 RUN rm -rf /usr/share/nginx/html/index.html
 RUN cd /tmp/
